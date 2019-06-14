@@ -9,7 +9,7 @@
 	
 	
 	<p>
-	Welcome to the Okon company home page! - there informations are for everyone!
+	Welcome to the Okon company home page! - these informations are for everyone!
 	</p>
 	
 	

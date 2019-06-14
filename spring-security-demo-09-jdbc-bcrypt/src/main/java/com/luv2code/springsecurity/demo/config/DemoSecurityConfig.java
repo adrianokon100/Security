@@ -17,21 +17,18 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	private DataSource securityDataSource;
-	
-	
-	// add refrence to our security data source 
-		
-	
+
+	// add refrence to our security data source
+
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
-	// use jdbc authenication ...
-		
+		// use jdbc authenication ...
+
 		auth.jdbcAuthentication().dataSource(securityDataSource);
-			
+
 	}
 
-	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
@@ -54,13 +51,5 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 				.logout().permitAll();
 		
 	}
-		
-	
-	
+
 }
-
-
-
-
-
-

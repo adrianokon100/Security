@@ -10,42 +10,34 @@ public class DemoController {
 
 	@GetMapping("/")
 	public String showHome() {
-		
+
 		return "home";
 	}
-	
-	
+
 	// add request mapping for /leaders
-	
+
 	@GetMapping("/leaders")
 	public String showLeaders() {
-		
+
 		return "leaders";
 	}
-	
+
 	@GetMapping("/systems")
 	public String showSystems() {
-		
+
 		return "systems";
 	}
-	
+
 	@GetMapping("/everyone")
 	public String showEveryone() {
-		
+
 		return "everyone";
 	}
-	
 
 	@GetMapping("/register")
 	public String showForm() {
-		
-				
+
 		return "register";
 	}
-	
 
-	
-	
-	
 }
-

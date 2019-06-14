@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Love to code Systems Home Page</title>
+	<title>Systems Home Page</title>
 </head>
 <body>
 

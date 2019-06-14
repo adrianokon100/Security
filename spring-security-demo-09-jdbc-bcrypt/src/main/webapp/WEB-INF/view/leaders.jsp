@@ -1,11 +1,11 @@
 
 <html>
 <head>
-	<title>Love to code Leaders Home Page</title>
+	<title>Leaders Home Page</title>
 </head>
 <body>
 
-	<h2>Love to code Leaders Home Page</h2>
+	<h2>Leaders Home Page</h2>
 
 	<hr>
 	<p>
